@@ -1,0 +1,143 @@
+ body {
+      color: #2B0D04;
+      margin: 0;
+      padding: 0;
+  		background: url("css/images/Leili-street.jpg");
+      background-position: center;
+      display: flex;
+      height: 100%;
+      width: 100%;
+      font-family: 'Open Sans', sans-serif;
+      overflow: auto;
+      text-decoration: none;
+		}
+
+#topbox {
+     background-color: transparent;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     padding: 10px;
+   }
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1em;
+  margin: 0 auto;
+}
+
+#contentbox {
+     color: #381100;
+     width: 80%;
+     margin: 0 auto 75px;
+     padding: 15px;
+     overflow: auto;
+   }
+
+#contentbox#portfolio {
+  background-color: hsla(70, 90%, 100%, 0.65);
+  width: 80%;
+  margin: 0 auto 75px;
+  padding: 15px;
+  overflow: auto;
+  height: 100%;
+  min-height: 2132px;
+}
+
+   #hero-image {
+     border: none;
+     display: flex;
+     width: 50%;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .portfolioimages {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     margin: 15px auto;
+     padding: 5px;
+     max-width: 50%;
+   }
+
+h1 {
+  font-weight: lighter;
+  font-size: 2.5em;
+
+}
+    a {
+     color: hsla(0, 69%, 13%, 0.71);
+     font-family: 'Raleway', sans-serif;
+     font-size: 2em,
+     margin: 3%;
+     padding: 1%;
+     text-decoration: none;
+     font-weight: lighter;
+   }
+   a:hover {
+     color: #41280A;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+   footer#portfolio {
+     margin-top: -53px;
+     height: 53px;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     background-color: hsla(70, 90%, 100%, 0.65);
+     padding: 0;
+   }
+
+#footerlinks {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   @media screen and (max-width:740px) {
+   	nav {
+   		width: 282px;
+   	}
+   	nav a {
+   		margin: .5em 0;
+   		padding: 1em;
+   	}
+   }
+
+   @media screen and (max-width: 900px) {
+   	#hero {
+   		width: 58%;
+   	}
+   }
+   @media screen and (max-width: 235px) {
+   	#hero {
+   		width: 80%;
+   	}
+   }
