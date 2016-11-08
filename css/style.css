@@ -23,7 +23,6 @@ html, body {
   /*margin-left: 1.5em 0;*/
   position: absolute;
   width: 700px;
-
 }
 
 #contentbox {
@@ -73,6 +72,7 @@ h1 {
   font-size: 2.5em;
   color: red;
 }
+
 a {
    color: hsla(0, 69%, 13%, 0.71);
    font-family: 'Raleway', sans-serif;
