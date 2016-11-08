@@ -1,38 +1,44 @@
- body {
-      color: #2B0D04;
-      margin: 0;
-      padding: 0;
+html, body {
+      color: #220A00;
   		background: url("css/images/Leili-street.jpg");
       background-position: center;
-      display: flex;
       height: 100%;
       width: 100%;
       font-family: 'Open Sans', sans-serif;
       overflow: auto;
-      text-decoration: none;
 		}
 
 #topbox {
      background-color: transparent;
      margin-top: 10px;
-     margin-bottom: 20px;
+     margin-bottom: 2%;
      padding: 10px;
    }
 
-nav {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 1em;
-  margin: 0 auto;
+#toplinks {
+  display: inline;
+  margin-left: 35%;
+  font-size: 1.5em;
+  float: left;
+  /*margin-left: 1.5em 0;*/
+  position: absolute;
+  width: 700px;
+
 }
 
 #contentbox {
      color: #381100;
      width: 80%;
      margin: 0 auto 75px;
+     min-height: 100%;
      padding: 15px;
      overflow: auto;
    }
+
+#contentbox:after {
+  content: "";
+  display: block;
+}
 
 #contentbox#portfolio {
   background-color: hsla(70, 90%, 100%, 0.65);
@@ -44,7 +50,7 @@ nav {
   min-height: 2132px;
 }
 
-   #hero-image {
+#hero-image {
      border: none;
      display: flex;
      width: 50%;
@@ -52,7 +58,7 @@ nav {
      align-items: center;
    }
 
-   .portfolioimages {
+.portfolioimages {
      display: flex;
      justify-content: center;
      align-items: center;
@@ -65,61 +71,53 @@ nav {
 h1 {
   font-weight: lighter;
   font-size: 2.5em;
-
+  color: red;
 }
-    a {
-     color: hsla(0, 69%, 13%, 0.71);
-     font-family: 'Raleway', sans-serif;
-     font-size: 2em,
-     margin: 3%;
-     padding: 1%;
-     text-decoration: none;
-     font-weight: lighter;
+a {
+   color: hsla(0, 69%, 13%, 0.71);
+   font-family: 'Raleway', sans-serif;
+   font-size: 2em,
+   margin: 3%;
+   padding: 1%;
+   text-decoration: none;
+   justify-content: center;
+   align-items: center;
+   font-weight: lighter;
    }
    a:hover {
      color: #41280A;
    }
 
+#home {
+  justify-content: space-between;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-   footer#portfolio {
+footer#portfolio {
      margin-top: -53px;
      height: 53px;
      bottom: 0;
      left: 0;
      width: 100%;
-     background-color: hsla(70, 90%, 100%, 0.65);
      padding: 0;
    }
 
-#footerlinks {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+#contact {
+  display: block;
+  margin-top:20%;
+  margin-left: -3%;
+  max-height: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+#footerlinks {
+  font-size: 1.5em;
+  Position: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 22%;
+  height: 10%;
+  width: 50%;
+}
 
    @media screen and (max-width:740px) {
    	nav {
