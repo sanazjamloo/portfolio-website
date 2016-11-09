@@ -17,7 +17,7 @@ html, body {
 
 #toplinks {
   display: inline;
-  margin-left: 35%;
+  margin-left: 39%;
   font-size: 1.5em;
   float: left;
   /*margin-left: 1.5em 0;*/
@@ -103,9 +103,20 @@ footer#portfolio {
 
 #contact {
   display: block;
-  margin-top:20%;
-  margin-left: -3%;
+  margin-top:3%;
+  margin-left: -1%;
   max-height: 10px;
+}
+
+#contact-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 34%;
+  width:24%;
+  padding-bottom: 2%;
+  padding-top: 3%;
 }
 
 #footerlinks {
