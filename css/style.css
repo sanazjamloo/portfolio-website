@@ -1,4 +1,88 @@
-html, body {
+#title {
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+#subtitle {
+  color: #5a3d09;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  font-family: 'Poiret One', cursive;
+  font-weight: 100;
+}
+
+.container a {
+    color: #5a3d09 !important;
+    font-family: 'Poiret One', cursive;
+    font-weight: 200;
+}
+
+.container a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+#hero-image {
+     border: none;
+     display: flex;
+     width: 65%;
+     margin: 0 auto;
+     position: relative;
+   }
+
+ul {
+   font-size: 1.5em;
+   list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+ }
+
+.navbar {
+  margin-top: 6%;
+}
+
+#footerlinks {
+  display: flex;
+  font-size: 1.5em;
+  Position: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 22%;
+  height: 10%;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*html, body {
       color: #220A00;
   		background: url("css/images/Leili-street.jpg");
       background-position: center;
@@ -20,8 +104,7 @@ html, body {
   margin-left: 39%;
   font-size: 1.5em;
   float: left;
-  /*margin-left: 1.5em 0;*/
-  position: absolute;
+  position: fixed;
   width: 700px;
 }
 
@@ -49,13 +132,7 @@ html, body {
   min-height: 2132px;
 }
 
-#hero-image {
-     border: none;
-     display: flex;
-     width: 50%;
-     justify-content: center;
-     align-items: center;
-   }
+
 
 .portfolioimages {
      display: flex;
@@ -68,13 +145,14 @@ html, body {
    }
 
 h1 {
+  color: green;
+  display: flex;
   font-weight: lighter;
   font-size: 2.5em;
-  color: red;
 }
 
 a {
-   color: hsla(0, 69%, 13%, 0.71);
+   color: #5d3c03;
    font-family: 'Raleway', sans-serif;
    font-size: 2em,
    margin: 3%;
@@ -88,6 +166,9 @@ a {
      color: #41280A;
    }
 
+h3 {
+  font-size: 1em;
+}
 #home {
   justify-content: space-between;
 }
@@ -118,35 +199,3 @@ footer#portfolio {
   padding-bottom: 2%;
   padding-top: 3%;
 }
-
-#footerlinks {
-  font-size: 1.5em;
-  Position: fixed;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-left: 22%;
-  height: 10%;
-  width: 50%;
-}
-
-   @media screen and (max-width:740px) {
-   	nav {
-   		width: 282px;
-   	}
-   	nav a {
-   		margin: .5em 0;
-   		padding: 1em;
-   	}
-   }
-
-   @media screen and (max-width: 900px) {
-   	#hero {
-   		width: 58%;
-   	}
-   }
-   @media screen and (max-width: 235px) {
-   	#hero {
-   		width: 80%;
-   	}
-   }
