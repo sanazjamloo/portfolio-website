@@ -113,19 +113,31 @@ p {
   width:45%;
 }
 
+#contact-image {
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 34%;
+  width:50%;
+  margin: 0 auto;
+  padding-bottom: 2%;
+  padding-top: 3%;
+}
 
+.icons {
+  height: 45%;
+  margin-left: 15%;
+}
 
+#email {
+  color: #5a3d09 !important;
+}
 
-
-
-
-
-
-
-
-
-
-
+#icons {
+    color: #5a3d09 !important;
+}
 
 
 
@@ -194,13 +206,4 @@ footer#portfolio {
   max-height: 10px;
 }
 
-#contact-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin-left: 34%;
-  width:24%;
-  padding-bottom: 2%;
-  padding-top: 3%;
-}*/
+*/
